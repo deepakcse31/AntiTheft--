@@ -124,11 +124,7 @@ public class Register extends AppCompatActivity {
                     progressDialog.dismiss();
                     Toast.makeText(getApplicationContext(),"please enter the password",Toast.LENGTH_LONG).show();
                 }
-                else if (imei.matches(""))
-                {
-                    progressDialog.dismiss();
-                    Toast.makeText(getApplicationContext(),"please enter the IMEI no",Toast.LENGTH_LONG).show();
-                }
+
                 else if (vehicle.matches(""))
                 {
                     progressDialog.dismiss();

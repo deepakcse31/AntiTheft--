@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mai"
+    tools:context=".status">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:layout_marginBottom="683dp"
+        android:text="STATUS"
+        android:textAlignment="center"
+        android:textColor="#ffedfd"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="587dp"
+        android:text=" Bike ID:"
+        android:textColor="#ffedfd"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginBottom="475dp"
+        android:text=" Petrol Flow Status:"
+        android:textColor="#ffedfd"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="144dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginBottom="535dp"
+        android:text=" Status:"
+        android:textColor="#ffedfd"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginBottom="366dp"
+        android:text=" Time:"
+        android:textColor="#ffedfd"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="112dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="415dp"
+        android:text=" Date:"
+        android:textColor="#ffedfd"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/bike_id"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="586dp" />
+
+    <EditText
+        android:id="@+id/petrol"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="476dp" />
+
+    <EditText
+        android:id="@+id/tampering"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="539dp" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="361dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="422dp" />
+
+</RelativeLayout>

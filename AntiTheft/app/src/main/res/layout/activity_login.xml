@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mai"
+    tools:context=".Login">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/usename"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:layout_marginBottom="470dp"
+        android:src="@drawable/logo1" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="322dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="374dp"
+        android:background="@drawable/radius"
+        android:hint="  Username"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="312dp"
+        android:background="@drawable/radius"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="458dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginBottom="54dp"
+        android:text="Don,t have an account?"
+
+        android:textColor="#ffedfd"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="276dp"
+        android:text=""
+        android:id="@+id/forgetpassword"
+        android:textColor="#ffedfd"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="217dp"
+        android:background="@drawable/loginbutton"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/new_user_resigtration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="57dp"
+        android:text="signup"
+        android:textColor="#000080" />
+
+</RelativeLayout>

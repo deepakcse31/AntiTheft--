@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         int secondsDelayed = 1;
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                startActivity(new Intent(MainActivity.this,Timer1.class));
+                startActivity(new Intent(MainActivity.this,Bluetooth_device.class));
                 finish();
             }
         }, secondsDelayed * 1000);
