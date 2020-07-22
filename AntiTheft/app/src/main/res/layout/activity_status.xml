@@ -92,6 +92,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="7dp"
         android:layout_marginRight="7dp"
+        android:textColor="#CD5C5C"
         android:layout_marginBottom="586dp" />
 
     <EditText
@@ -103,6 +104,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
+        android:textColor="#CD5C5C"
         android:layout_marginBottom="476dp" />
 
     <EditText
@@ -114,6 +116,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="11dp"
         android:layout_marginRight="11dp"
+        android:textColor="#CD5C5C"
         android:layout_marginBottom="539dp" />
 
     <EditText
@@ -125,6 +128,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
+        android:textColor="#CD5C5C"
         android:layout_marginBottom="361dp" />
 
     <EditText
@@ -136,6 +140,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="11dp"
         android:layout_marginRight="11dp"
+        android:textColor="#CD5C5C"
         android:layout_marginBottom="422dp" />
 
 </RelativeLayout>

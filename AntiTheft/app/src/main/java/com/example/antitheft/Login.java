@@ -49,7 +49,6 @@ public class Login extends AppCompatActivity {
             public void onClick(View view) {
                 Intent reg = new Intent(getApplicationContext(), UserRegistration.class);
                 startActivity(reg);
-
                 Toast.makeText(getApplicationContext(), "register ho gya tu", Toast.LENGTH_LONG).show();
             }
         });
@@ -97,7 +96,7 @@ public class Login extends AppCompatActivity {
                             }
                         } catch (JSONException e) {
                             Log.e("exception","exception"+e);
-                            Toast.makeText(getApplicationContext(),"There is some problem in link",Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(),"Please Enter Correct Username and Password",Toast.LENGTH_LONG).show();
                             e.printStackTrace();
                         }
                     }

@@ -125,16 +125,6 @@ public class UserRegistration extends AppCompatActivity {
                             new Response.Listener<String>() {
                                 @Override
                                 public void onResponse(String ServerResponse) {
-
-                                    //JSONObject jobj = new JSONObject(ServerResponse);
-                                    //JSONObject songsObject = jobj.getJSONObject("otp");
-                                    //SONArray songsArray = songsObject.toJSONArray(songsObject.names());
-                                    //Log.e("Result->","Result->"+songsArray);
-                                    // Hiding the progress dialog after all task complete.
-
-
-                                   // Log.e("saturday", "saturday" + otp);
-
                                     progressDialog.dismiss();
                                     //Intent i1 = new Intent(getApplicationContext(), OTP.class);
                                     //startActivity(i1);
@@ -169,35 +159,15 @@ public class UserRegistration extends AppCompatActivity {
                             params.put("password", pass);
                             params.put("vehicleno", vehicle);
                             params.put("phone",phone);
-                           params.put("token",token);
+                            params.put("token",token);
 
                             return params;
                         }
-                    /*    @Override
-                        public Map<String, String> getHeaders() throws AuthFailureError {
-                            Map<String, String> params = super.getHeaders();
-                            if (params == null){
-                                params = new HashMap<>();
-                            }
-                            String credentials = "http://cloud.sistec.ac.in/adminer_sistec.php";
-                            String username="0187cs161082";
-                            String password="sistec";
-                            String creds = String.format("%s:%s", username, password);
-
-                            params.put("Authorization", creds);
-
-                            return params;
-                        }*/
-
                     };
-
                     // Creating RequestQueue.
                     RequestQueue requestQueue = Volley.newRequestQueue(UserRegistration.this);
-
                     // Adding the StringRequest object into requestQueue.
                     requestQueue.add(stringRequest);
-
-
                 }
                 else {
                     progressDialog.dismiss();

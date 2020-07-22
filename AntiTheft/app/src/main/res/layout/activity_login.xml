@@ -22,7 +22,6 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:id="@+id/username"
-
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
